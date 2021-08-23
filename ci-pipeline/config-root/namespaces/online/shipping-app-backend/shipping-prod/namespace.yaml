@@ -18,6 +18,7 @@ metadata:
   name: shipping-prod
   labels:
     env: prod
+    cost-center: "shipping.foo-corp.com"
   annotations:
     audit: "true"
 # [END anthos_config_management_ci_pipeline_shipping_prod_namespace]
